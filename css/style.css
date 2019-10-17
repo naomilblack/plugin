@@ -1,0 +1,39 @@
+/* Sample CSS styles below */
+
+.shoe-rating-container{
+	
+	padding:1em 0;
+	color: white;
+	display: block;
+}
+
+.shoe-rating-container span{
+	
+	cursor: pointer;
+	color: white;
+}
+
+.shoe-rating-container span:before{
+	
+	content: attr(data-text);
+}
+
+.shoe-rating-container span:hover{
+	
+	color: #dddddd;
+}
+
+.shoe-rating-container .shoe-rating-up, .shoe-rating-container .shoe-rating-down{
+	
+	padding: 0.5em
+} 
+
+.shoe-rating-container .shoe-rating-up{
+		
+	background: yellow;
+}
+
+.shoe-rating-container .shoe-rating-down{
+	
+	background: pink
+}
